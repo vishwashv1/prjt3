@@ -1,0 +1,258 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  
+  .blur {
+    filter: blur(7px);
+    -webkit-filter: blur(5px);
+  }
+  .popbox {
+    box-shadow: 4px 4px 5px rgb(190, 180, 180);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 190px;
+    border: 1.9px solid rgb(238, 92, 39);
+    outline-width: 0.4vh;
+    outline-color: rgb(228, 70, 13);
+    text-align: center;
+    /* To make card in center */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -60%;
+    transform: translate(-50%, -50%);
+  }
+  .rectangle {
+    outline-color: rgb(228, 70, 13);
+    border-radius: 5px 5px 5px 5px;
+    outline-style: solid;
+    outline-width: 0.3vh;
+    height: 30px;
+    width: 210px;
+    display: inline-flex;
+  }
+  .button {
+    border-radius: 20px 20px 20px 20px;
+    height: 32px;
+    width: 73px;
+    background-color: rgb(228, 70, 13);
+    text-decoration-color: ivory;
+    margin-left: 117px;
+    margin-bottom: 30px;
+  }
+  
+  .parent {
+    display: flex;
+  }
+  .box {
+    height: 250px;
+    width: 230px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(245, 78, 18);
+    box-shadow: 0 6px 8px gray;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .heading {
+    margin: 120px 240px 20px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  .buttont {
+    margin-left: 1200px;
+    margin-top: -90px;
+    color: rgb(216, 73, 21);
+  }
+  .triptoparis {
+    font-size: 20px;
+    padding-left: 70px;
+  }
+  .complete {
+    padding: 10px 80px;
+    color: red;
+    text-decoration: line-through;
+    font-size: 20px;
+  }
+  hr {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .pending {
+    padding-left: 50px;
+    color: black;
+    padding-top: 10px;
+  }
+  .addbutton {
+    padding: 90px 215px;
+    color: rgb(247, 82, 22);
+  }
+  
+  @media screen and (min-width: 360px) and (max-width: 640px) {
+    .parent {
+      display: inline;
+    }
+    .box {
+      width: 270px;
+      height: 40px;
+      box-shadow: 0 6px 8px gray;
+      transition: 0.3s;
+      border-radius: 9px;
+    }
+    hr {
+      visibility: hidden;
+    }
+    .complete {
+      visibility: hidden;
+    }
+    .pending {
+      visibility: hidden;
+    }
+    i {
+      visibility: hidden;
+    }
+    .heading {
+      margin: 10px 40px 20px 20px;
+      font-size: 40px;
+      font-weight: 700;
+      padding-bottom: 40px;
+    }
+    .buttont {
+      margin-left: 270px;
+      margin-top: -95px;
+      color: rgb(216, 73, 21);
+    }
+    .triptoparis {
+      font-size: 20px;
+      padding-left: 70px;
+    }
+  }
+  /* iphone 5/se */
+  @media screen and (min-width: 320px) and (max-width: 568px) {
+    .heading {
+      margin: 10px 40px 20px 20px;
+      font-size: 40px;
+      font-weight: 700;
+      padding-bottom: 40px;
+    }
+    .buttont {
+      margin-left: 270px;
+      margin-top: -95px;
+      color: rgb(216, 73, 21);
+    }
+    .parent {
+      display: inline;
+    }
+    .box {
+      width: 235px;
+      height: 40px;
+      box-shadow: 0 6px 8px gray;
+      transition: 0.3s;
+      border-radius: 9px;
+    }
+    hr {
+      visibility: hidden;
+    }
+    .complete {
+      visibility: hidden;
+    }
+    .pending {
+      visibility: hidden;
+    }
+    i {
+      visibility: hidden;
+    }
+    .triptoparis {
+      font-size: 20px;
+      padding-left: 10px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .parent {
+      grid: 320px 120px / auto auto auto;
+      display: grid;
+      height: 2000px;
+    }
+    .box {
+      width: 150px;
+      height: 240px;
+      box-shadow: 0 6px 8px gray;
+      transition: 0.3s;
+      border-radius: 9px;
+    }
+    .heading {
+      margin: 20px 40px 20px 20px;
+      font-size: 40px;
+      font-weight: 700;
+      padding-bottom: 40px;
+    }
+    .buttont {
+      margin-left: 670px;
+      margin-top: -90px;
+      color: rgb(216, 73, 21);
+    }
+    .triptoparis {
+      font-size: 17px;
+      padding-left: 20px;
+    }
+    .complete {
+      padding: 7px 40px;
+      color: red;
+      text-decoration: line-through;
+      font-size: 20px;
+    }
+    hr {
+      width: 147px;
+      margin-left: 20px;
+    }
+    .pending {
+      padding-left: 10px;
+      color: black;
+      padding-top: 10px;
+    }
+    .addbutton {
+      padding: 90px 130px;
+      color: rgb(247, 82, 22);
+    }
+    .popbox {
+      box-shadow: 4px 4px 5px rgb(190, 180, 180);
+      transition: 0.3s;
+      border-radius: 5px;
+      background-color: white;
+      width: 300px;
+      height: 190px;
+      border: 1.9px solid rgb(238, 92, 39);
+      outline-width: 0.4vh;
+      outline-color: rgb(228, 70, 13);
+      text-align: center;
+      /* To make card in center */
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      margin-right: -60%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  @media screen and (min-width: 411px) and (max-width: 700px) {
+    .box {
+      width: 290px;
+      height: 40px;
+      box-shadow: 0 6px 8px gray;
+      transition: 0.3s;
+      border-radius: 9px;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 568px) {
+    .box {
+      width: 210px;
+      height: 40px;
+      box-shadow: 0 6px 8px gray;
+      transition: 0.3s;
+      border-radius: 9px;
+    }
+  }
+  
+ 
